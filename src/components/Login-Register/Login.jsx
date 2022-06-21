@@ -19,7 +19,7 @@ const Login = (props) => {
     if (React.isDevelopment) {
       return url;
     } else {
-      return `"https://ez-scheduler.herokuapp.com${url}`;
+      return `https://ez-scheduler.herokuapp.com${url}`;
     }
   }
 
