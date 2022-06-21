@@ -15,6 +15,14 @@ const Login = (props) => {
     setUser(e.target.value);
   };
 
+  const siteURL = (url) => {
+    if (React.isDevelopment) {
+      return url;
+    } else {
+      return `"https://ez-scheduler.herokuapp.com${url}`;
+    }
+  }
+
   const passwordLogin = (e) => {
     setPassword(e.target.value);
   };
@@ -22,7 +30,7 @@ const Login = (props) => {
   const submitHandler = (e) => {
     e.preventDefault();
     axios
-      .post("/users/login", { email: user, password: password })
+      .post(siteURL("/users/login"), { email: user, password: password })
       .then((user) => {
         if (user.data.status === 200) {
           console.log("USER ID = ", user.data.id);
