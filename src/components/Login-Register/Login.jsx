@@ -30,7 +30,7 @@ const Login = (props) => {
   const submitHandler = (e) => {
     e.preventDefault();
     axios
-      .post(siteURL("/users/login"), { email: user, password: password })
+      .post(siteURL("/users/login"), { email: user, password: password },{withCredentials: true})
       .then((user) => {
         if (user.data.status === 200) {
           console.log("USER ID = ", user.data.id);
