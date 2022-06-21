@@ -1,0 +1,275 @@
+.icon {
+  font-size: large;
+  align-self: center;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.x {
+  color: red;
+  height: fit-content;
+  max-width: fit-content;
+}
+
+.check {
+  color: green;
+  height: fit-content;
+  max-width: fit-content;
+}
+
+.question {
+  color: orange;
+  height: fit-content;
+  max-width: fit-content;
+}
+
+.container {
+  border: 2px solid aqua;
+  color: aqua;
+  font-family: 'Varela Round', sans-serif;
+  border-radius: 25px;
+  padding: 20px;
+  margin: 20px;
+  width: 90%;
+  height: 910px;
+}
+
+.container main {
+  margin: 10px;
+}
+
+.title {
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  align-self: center;
+  padding: 10px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.btn:active {
+  transform: translateY(-1px);
+}
+
+.edit:hover {
+  background-color: aquamarine;
+  box-shadow: 0px 8px 15px rgba(127, 255, 212, 0.5);
+}
+
+.delete {
+  padding: 5px;
+  background-color: rgb(255, 160, 160);
+  width: 30px;
+}
+
+.delete:hover {
+  background-color: red;
+}
+
+.accept {
+  background-color: rgb(170, 255, 170);
+}
+
+.accept:hover {
+  background-color: green;
+  color: white;
+  box-shadow: 0px 5px 10px green;
+  transform: translateY(-3px);
+}
+
+.accept_active {
+  background-color: green;
+  color: white;
+  box-shadow: 0px 5px 10px green;
+  transform: translateY(-3px);
+}
+
+.decline {
+  background-color: rgb(255, 175, 175);
+}
+
+.decline:hover {
+  background-color: red;
+  color: white;
+  box-shadow: 0px 5px 10px red;
+  transform: translateY(-3px);
+}
+
+.decline_active {
+  background-color: red;
+  color: white;
+  box-shadow: 0px 5px 10px red;
+  transform: translateY(-3px);
+}
+
+.maybe {
+  background-color: rgb(255, 255, 185);
+}
+
+.maybe:hover {
+  background-color: yellow;
+  box-shadow: 0px 5px 10px yellow;
+  transform: translateY(-3px);
+}
+
+.maybe_active {
+  background-color: yellow;
+  box-shadow: 0px 5px 10px yellow;
+  transform: translateY(-3px);
+}
+
+.date {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.invitees {
+  box-shadow: 0px 0px 10px aqua;
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 10px;
+  overflow: hidden;
+  height: 45%;
+  margin-bottom: 20px;
+}
+
+.invitees:hover {
+  overflow-y: scroll;
+  overflow-y: overlay;
+}
+
+.section_title {
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.invitees input {
+  width: fit-content;
+}
+
+.add {
+  font-size: x-large;
+  color: blue;
+  background-color: rgba(0, 221, 255, 0.800);
+  cursor: pointer;
+  border-radius: 10px;
+  transition: all 0.2s;
+  align-self: center;
+  margin: 10px;
+  width: 50px;
+}
+
+.add:hover {
+  background-color: aqua;
+  box-shadow: 0px 0px 10px aqua;
+}
+
+.weather {
+  color: white;
+  box-shadow: 0px 0px 15px aqua;
+  border-radius: 25px;
+  max-inline-size: fit-content;
+  padding: 10px;
+  height: 100px;
+  height: fit-content;
+  text-transform: capitalize;
+  text-align: center;
+  margin: 20px;
+}
+
+.weather_section {
+  display: flex;
+  justify-content: right;
+}
+
+.btn_add {
+  width: fit-content;
+  align-self: center;
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 25px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.btn_add:hover {
+  background-color: #23acc4;
+  box-shadow: 0px 15px 20px rgba(46, 134, 229, 0.4);
+  color: #fff;
+  transform: translateY(-3px);
+}
+
+.btn_add:active {
+  transform: translateY(-1px);
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: block;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 120px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  cursor: pointer;
+}
+
+.list_name:hover {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.list_item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.p_fix {
+  margin: 0;
+}
+
+.comments {
+  border-radius: 10px;
+  height: 52%;
+  padding: 5px;
+  padding-right: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  overflow: hidden;
+  align-items: center;
+  box-shadow: 0px 0px 10px aqua;
+}
+
+.comments:hover {
+  overflow-y: scroll;
+  overflow-y: overlay;
+}
+
+.adjust_height {
+  height: 100%;
+}

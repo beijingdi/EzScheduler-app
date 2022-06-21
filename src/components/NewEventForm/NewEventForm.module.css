@@ -1,0 +1,197 @@
+.container {
+  border: 2px solid aqua;
+  border-radius: 25px;
+  padding: 20px;
+  margin: 20px;
+  width: 80%;
+  font-family: 'Varela Round', sans-serif;
+  color: aqua;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+}
+
+.input_form {
+  width: 90%;
+  border: 0;
+  background-color: blue;
+  border-right: 2px solid aqua;
+  border-bottom: 2px solid aqua;
+  margin: 10px;
+  color: white;
+  outline: 0;
+}
+
+.input_form_date {
+  border: 0;
+  width: 70%;
+  background-color: blue;
+  border-right: 2px solid aqua;
+  border-bottom: 2px solid aqua;
+  color: white;
+  outline: 0;
+}
+
+.input_form_time {
+  border: 0;
+  width: 80%;
+  background-color: white;
+  color: black;
+  outline: 0;
+}
+
+.invitees {
+  height: 92%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  overflow: hidden;
+  box-shadow: 0px 0px 10px aqua;
+  border-radius: 15px;
+}
+
+.invitees:hover {
+  overflow-y: scroll;
+  overflow-y: overlay;
+}
+
+.add {
+  font-size: x-large;
+  color: blue;
+  background-color: rgba(0, 221, 255, 0.800);
+  cursor: pointer;
+  border-radius: 10px;
+  transition: all 0.2s;
+  align-self: center;
+  margin: 10px;
+  width: 50px;
+}
+
+.add:hover {
+  background-color: aqua;
+  box-shadow: 0px 0px 10px aqua;
+}
+
+.btn {
+  width: fit-content;
+  align-self: center;
+  padding: 1rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.btn:hover {
+  background-color: #23acc4;
+  color: #fff;
+}
+
+.btn:active {
+  transform: translateY(-1px);
+}
+
+.center {
+  justify-content: center;
+}
+
+.invitee_form {
+  width: auto;
+  height: fit-content;
+  width: 90%;
+  border: 0;
+  background-color: blue;
+  border-right: 2px solid aqua;
+  border-bottom: 2px solid aqua;
+  margin: 10px;
+  color: white;
+  outline: 0;
+}
+
+.btn_add {
+  width: fit-content;
+  align-self: center;
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 25px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.btn_add:hover {
+  background-color: #23acc4;
+  box-shadow: 0px 15px 20px rgba(46, 134, 229, 0.4);
+  color: #fff;
+  transform: translateY(-3px);
+}
+
+.btn_add:active {
+  transform: translateY(-1px);
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  padding-top: 20px;
+  display: block;
+  position: absolute;
+  background-color: rgb(3, 0, 85);
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  cursor: pointer;
+  overflow: hidden;
+  scroll-behavior: unset;
+}
+
+.list_name:hover {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.delete {
+  padding: 0;
+  background-color: rgb(255, 160, 160);
+  width: 25px;
+}
+
+.delete:hover {
+  background-color: red;
+}
+
+.list_item {
+  display: flex;
+  align-self: center;
+  align-items: center;
+}
+
+.p_fix {
+  margin: 0;
+}
+
+.new_event_title {
+  margin: 10px;
+  color: aqua;
+  font-family: 'Dancing Script', cursive;
+  text-shadow: 2px 2px 10px aqua;
+  justify-content: center;
+}
